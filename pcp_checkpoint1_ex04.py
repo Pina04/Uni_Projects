@@ -1,0 +1,5 @@
+dias = int(input("Quantos dias de vida você tem? "))
+anos = int(dias / 365)
+meses = int((dias % 365) / 30)
+dias = int((dias % 365) % 30)
+print(f"Você tem {anos} anos, {meses} meses e {dias} dias de vida.")
